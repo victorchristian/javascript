@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <body>
+    <button onclick="jawab()">Klik Saya</button>
+    <p id="jawaban"></p>
+    <script type="text/javascript">
+      function jawab() {
+        var nama = prompt("Masukan Nama Kamu","Nama");
+        if (nama != null) {
+          document.getElementById("jawaban").innerHTML=
+          "Hello "+ nama + " apa kabar"
+        }
+      }
+    </script>
+  </body>
+</html>
